@@ -19,7 +19,6 @@ body {
     min-height: 100dvh;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-color: #540B51;
     width: 100vw;
 }
 
@@ -55,6 +54,9 @@ p {
         border: none;
         background: none;
     }
+}
+.background {
+    background-color: #540B51;
 }
 
 
@@ -173,5 +175,6 @@ p {
 }
 
 .stats {
-    
+    background-color: white;
+    height: 100%;
 }
