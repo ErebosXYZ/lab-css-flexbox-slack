@@ -230,7 +230,7 @@ p {
 
 .cta {
     background-color: #540B51;
-    height: 70vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -264,4 +264,33 @@ p {
         border: solid white;
         color: white;
     }
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer__line {
+    margin: 50px 20px 50px 20px;
+}
+
+.footer__menu{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 50vh;
+    font-size: larger;
+    font-weight: bold;
+    li:last-child {
+        color:#2E71A6;
+    }
+} 
+
+
+.footer__bottom {
+    text-wrap: wrap;
+   
+    text-align:center;
+    font-size: 28px;
+    color: #454245;
 }
