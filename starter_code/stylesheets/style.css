@@ -77,9 +77,11 @@ p {
     .hero__text {
         text-align: center;
         color: white;
+        font-size: 28px;
 
         .hero__text--highlight {
             color: #ECB12F;
+            font-weight: 700;
         }
     }
 
