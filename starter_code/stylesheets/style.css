@@ -256,6 +256,7 @@ p {
         font-weight: 700;
         font-size: larger;
         width: 95vw;
+        max-width: 95vw;
     }
     .cta__button--first {
         border: none;
@@ -296,3 +297,4 @@ footer ul {
     font-size: 28px;
     color: #454245;
 }
+
