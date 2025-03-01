@@ -54,12 +54,12 @@ p {
         border: none;
         background: none;
     }
+
     .navbar__icons {
         display: flex;
         flex-direction: row;
-        gap: 50px;
-        margin-right: 5rem;
-        margin-top: 2rem;
+        gap: 30px;
+
     }
 }
 
@@ -328,4 +328,102 @@ footer ul {
     body {
         width: 100vw;
     }
+
+    .navbar__icons {
+        margin-right: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .hero__cta {
+        background-image: url(../images/background-singup.png);
+        background-position: top left;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        padding-bottom: 15vh;
+
+        .hero__cta--main {
+            /* max-width: 60%; */
+            justify-items: left;
+            margin: 2rem;
+        }
+
+        .hero__image {
+            height: 35vw;
+            position: absolute;
+            top: 28%;
+            right: -20%;
+        }
+
+        h1 {
+            text-align: left;
+            font-size: 90px;
+            justify-items: left;
+            align-items: left;
+            width: 50%;
+            margin-top: 0;
+        }
+
+        .hero__cta--buttons {
+            width: 60%;
+
+            .hero__cta--button1,
+            .hero__cta--button2 {
+                margin-left: 0rem;
+            }
+        }
+
+        .hero__text {
+            width: 50%;
+            text-align: left;
+        }
+
+    }
+
+    .trusted-by {
+        padding-bottom: 3em;
+    }
+
+    .trusted-by__logos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap !important;
+        gap: 2rem;
+        align-content: center;
+
+    }
+
+    .trusted-by__logos img {
+        margin-top: 0% !important;
+        height: 2em !important;
+        margin-bottom: 0% !important;
+    }
+
+    .stats {
+        padding: 2em;
+        padding-bottom: 4em;
+        .stats__title {
+            font-size: 35px !important;
+        }
+
+        .stats__intro {
+            font-size: 18px !important;
+        }
+
+        .stats__content {
+            display: grid;
+            grid-template-columns: 33vw 33vw 33vw;
+            .stats__numbers {
+                font-size: 
+            }
+            .stats__text {
+                font-size: 16px !important;
+            }
+        }
+        
+    }
+
+
 }
