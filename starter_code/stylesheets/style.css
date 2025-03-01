@@ -345,7 +345,7 @@ footer ul {
         padding-bottom: 15vh;
 
         .hero__cta--main {
-            /* max-width: 60%; */
+        
             justify-items: left;
             margin: 2rem;
         }
@@ -415,14 +415,20 @@ footer ul {
         .stats__content {
             display: grid;
             grid-template-columns: 33vw 33vw 33vw;
-            .stats__numbers {
-                font-size: 
-            }
             .stats__text {
                 font-size: 16px !important;
             }
         }
         
+    }
+
+    .cta {
+        padding-bottom: 10vh;
+        height: 80vh;
+        gap: 0px;
+        .cta__button--first, .cta__button--second {
+            width: 80vw;
+        }
     }
 
 
