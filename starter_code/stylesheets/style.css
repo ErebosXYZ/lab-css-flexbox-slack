@@ -431,5 +431,23 @@ footer ul {
         }
     }
 
+    .footer__menu {
+        flex-direction: row;
+        height: 5vh;
+    }
+    .footer__social {
+        display: flex;
+        flex-direction: row;
+        gap: 10vw;
+        height: 5vh;
+        font-size: x-large;
+    }
+    .footer__bottom {
+        font-size: medium;
+        text-align: left;
+        margin-left: 40px;
+    }
+
 
 }
+/* @media only screen and (min-width: 1024px) */
