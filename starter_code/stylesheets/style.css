@@ -355,6 +355,7 @@ footer ul {
             position: absolute;
             top: 28%;
             right: -20%;
+            overflow: hidden;
         }
 
         h1 {
@@ -450,4 +451,99 @@ footer ul {
 
 
 }
-/* @media only screen and (min-width: 1024px) */
+@media only screen and (min-width: 1024px) {
+    * {
+        max-width: 1440px;
+    }
+    body {
+        width: 100vw;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        height: 10vh;
+        max-width: 100vw;
+        .navbar__content {
+            display: flex;
+            align-items: center;
+          }
+          
+          
+          .navbar__logo {
+            height: 25px;
+            margin-right: 50px;
+            margin-left: 2rem;
+          }
+          
+          
+          .navbar__features {
+            list-style: none;
+            display: flex;
+            gap: 60px;
+            margin: 0;
+            padding: 0;
+          }
+          
+          .navbar__features li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+          }
+          
+          .navbar__features li a:hover {
+            color: #ECB12F; 
+          }
+          
+         
+          .navbar__icons {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-top: 0rem;
+          }
+          
+          .navbar__buttons {
+            background: none;
+            border: none;
+            cursor: pointer;
+            
+          }
+          
+          .navbar__buttons img {
+            height: 24px;
+          }
+
+          .navbar__buttons:nth-child(2) {
+            display: none;
+          }
+          ul[hidden] {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            align-items: center;
+            padding-left: 0rem;
+            a {
+                text-decoration: none;
+            }
+            .navbar__signin {
+                color: white;
+                font-weight: bold;
+            }
+            .navbar__cta {
+                color:#540B51;
+                border: solid white;
+                border-radius: 5px;
+                background-color: white;
+                text-transform: uppercase;
+                width: 1000px;
+                min-width: 200px;
+                font-weight: bold;
+                padding: 10px;
+            }
+          }
+    }
+        
+}
