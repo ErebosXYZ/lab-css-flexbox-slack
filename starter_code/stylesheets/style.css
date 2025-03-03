@@ -545,5 +545,29 @@ footer ul {
             }
           }
     }
+
+    .hero__cta {
+        .hero__cta--main {
+            padding-left: 2rem;
+           h1 {
+            width: 60%;
+           }
+        }
+    }
+
+    .cta {
+        .cta__buttons {
+            display: flex;
+            flex-direction: row;
+        }
+        .cta__button--first, .cta__button--second {
+            width: 20vw;
+            margin: 3vw;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    
         
 }
